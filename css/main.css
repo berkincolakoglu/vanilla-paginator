@@ -1,0 +1,61 @@
+html, body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: #24292e;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 2em;
+}
+html h1, body h1 {
+  color: #fafbfc;
+}
+html .outer-container, body .outer-container {
+  color: red;
+}
+html .outer-container .page-container, body .outer-container .page-container {
+  padding: 1em;
+  border: 2px solid red;
+}
+html .outer-container .page-container .page, body .outer-container .page-container .page {
+  display: flex;
+  flex-direction: column;
+}
+html .outer-container .page-container .item, body .outer-container .page-container .item {
+  border: 1px solid blue;
+  border-radius: 5px;
+  color: black;
+}
+html .outer-container .pagination-container, body .outer-container .pagination-container {
+  display: flex;
+  justify-content: center;
+  gap: 2px;
+  border: 2px solid red;
+}
+html .outer-container .pagination-container .page-btn, body .outer-container .pagination-container .page-btn {
+  padding: 0.5em 0.75em;
+  border-radius: 10px;
+  color: #fafbfc;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+html .outer-container .pagination-container .page-btn:hover:not(.active):not(.unclickable), body .outer-container .pagination-container .page-btn:hover:not(.active):not(.unclickable) {
+  background-color: blue;
+  transition: 0.3s;
+}
+html .outer-container .pagination-container .number-btn, body .outer-container .pagination-container .number-btn {
+  display: block;
+}
+html .outer-container .pagination-container .active, body .outer-container .pagination-container .active {
+  background-color: red;
+  font-weight: 600;
+}
+html .outer-container .pagination-container .invisible, body .outer-container .pagination-container .invisible {
+  display: none !important;
+}
+html .outer-container .pagination-container .unclickable, body .outer-container .pagination-container .unclickable {
+  display: block;
+  cursor: default;
+}/*# sourceMappingURL=main.css.map */
