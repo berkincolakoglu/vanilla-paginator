@@ -1,4 +1,9 @@
 # 📄 Vanilla Paginator 
+![Ekran görüntüsü 2025-03-11 052411](https://github.com/user-attachments/assets/65712591-3836-46bf-a3bf-c46194644c3a) <br>
+![Ekran görüntüsü 2025-03-11 052438](https://github.com/user-attachments/assets/0a6d6f9e-a3db-4c41-9179-d9715384bf22) <br>
+![Ekran görüntüsü 2025-03-11 052454](https://github.com/user-attachments/assets/f48ae45a-1384-43ce-9c2e-ff45667860f8)
+
+
 
 A lightweight, simple front-end pagination component built with vanilla JavaScript. 
 
@@ -25,13 +30,14 @@ A lightweight, simple front-end pagination component built with vanilla JavaScri
    ```
 
 ### 3. Add **"vanillaPaginator.js"** to your project structure.
-   <img width="219" alt="Screen Shot 2025-03-10 at 18 36 00" src="https://github.com/user-attachments/assets/e55ab314-b2d4-431f-ab38-06faf2ade8f2" />
+   <img width="219" alt="Screen Shot 2025-03-10 at 18 36 00" src="https://github.com/user-attachments/assets/dd1af3a9-d140-4e2c-8eaa-6f3ad96b7ad4" />
+
 
 
 ### 4. Import/define your createComponent function that creates component in **"vanillaPaginator.js"** file. 
 You can either import your component creator function or define it inside the **"vanillaPaginator.js"** file like done in this repository. This function is used in the "renderPage" function each time the user navigates through pages. Or you can modify the renderPage function, to make it work in the way you want.  
-<img width="588" alt="Screen Shot 2025-03-10 at 19 57 55" src="https://github.com/user-attachments/assets/48963a9d-0d67-497d-bb67-05516ab6df20" />
-<img width="552" alt="Screen Shot 2025-03-10 at 19 47 56" src="https://github.com/user-attachments/assets/e7ba1bdb-c23a-4a8b-9395-8f411902f8fd" />
+<img width="588" alt="Screen Shot 2025-03-10 at 19 57 55" src="https://github.com/user-attachments/assets/2969280d-0572-45f4-a4eb-80bb9edab5d4" />
+<img width="552" alt="Screen Shot 2025-03-10 at 19 47 56" src="https://github.com/user-attachments/assets/6b9afe35-ef60-4b55-a77a-276b53d98f86" />
 
 ### 5. Stylize the pagination elements.
 You can simply copy CSS values for pagination elements under the snippet ".pagination-container" in **main.scss** file. Or style all the elements as you wish.
