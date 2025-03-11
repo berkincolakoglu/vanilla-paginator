@@ -3,9 +3,8 @@
 ![Ekran görüntüsü 2025-03-11 052438](https://github.com/user-attachments/assets/0a6d6f9e-a3db-4c41-9179-d9715384bf22) <br>
 ![Ekran görüntüsü 2025-03-11 052454](https://github.com/user-attachments/assets/f48ae45a-1384-43ce-9c2e-ff45667860f8)
 
-
-
 A lightweight, simple front-end pagination component built with vanilla JavaScript. 
+<br><br>🍿You can check the [Live Demo](https://berkincolakoglu.github.io/vanilla-paginator/).
 
 ## ✨ Features
 - Dynamic page rendering based on the number of items.
